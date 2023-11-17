@@ -11,7 +11,7 @@ namespace appFP
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Secuenciales._02());
+            Application.Run(new Secuenciales._03());
         }
     }
 }
