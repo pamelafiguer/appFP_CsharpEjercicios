@@ -16,6 +16,8 @@ namespace appFP.Condicionales
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
@@ -37,5 +39,9 @@ namespace appFP.Condicionales
             txtMenor.Text = Menor.ToString("##");
 
         }
+=======
+>>>>>>> b02bee22f57911d146fba65b5eff592b50eb339a
+=======
+>>>>>>> b02bee22f57911d146fba65b5eff592b50eb339a
     }
 }
