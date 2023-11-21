@@ -83,7 +83,7 @@
             // 
             txtPamela.Location = new Point(134, 34);
             txtPamela.Name = "txtPamela";
-            txtPamela.Size = new Size(100, 23);
+            txtPamela.Size = new Size(78, 23);
             txtPamela.TabIndex = 1;
             txtPamela.TextAlign = HorizontalAlignment.Right;
             // 
@@ -109,7 +109,7 @@
             // 
             txtFanny.Location = new Point(134, 148);
             txtFanny.Name = "txtFanny";
-            txtFanny.Size = new Size(100, 23);
+            txtFanny.Size = new Size(78, 23);
             txtFanny.TabIndex = 3;
             txtFanny.TextAlign = HorizontalAlignment.Right;
             // 
@@ -117,7 +117,7 @@
             // 
             txtCarol.Location = new Point(134, 95);
             txtCarol.Name = "txtCarol";
-            txtCarol.Size = new Size(100, 23);
+            txtCarol.Size = new Size(78, 23);
             txtCarol.TabIndex = 2;
             txtCarol.TextAlign = HorizontalAlignment.Right;
             // 
@@ -126,7 +126,7 @@
             txtGanadora.Location = new Point(134, 192);
             txtGanadora.Name = "txtGanadora";
             txtGanadora.ReadOnly = true;
-            txtGanadora.Size = new Size(100, 23);
+            txtGanadora.Size = new Size(103, 23);
             txtGanadora.TabIndex = 4;
             txtGanadora.TextAlign = HorizontalAlignment.Right;
             // 
@@ -135,7 +135,7 @@
             txtSegundo.Location = new Point(134, 242);
             txtSegundo.Name = "txtSegundo";
             txtSegundo.ReadOnly = true;
-            txtSegundo.Size = new Size(100, 23);
+            txtSegundo.Size = new Size(103, 23);
             txtSegundo.TabIndex = 5;
             txtSegundo.TextAlign = HorizontalAlignment.Right;
             // 
@@ -144,7 +144,7 @@
             txtTercero.Location = new Point(134, 290);
             txtTercero.Name = "txtTercero";
             txtTercero.ReadOnly = true;
-            txtTercero.Size = new Size(100, 23);
+            txtTercero.Size = new Size(103, 23);
             txtTercero.TabIndex = 6;
             txtTercero.TextAlign = HorizontalAlignment.Right;
             // 
@@ -162,7 +162,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(366, 450);
+            ClientSize = new Size(315, 416);
             Controls.Add(btnCalcular);
             Controls.Add(txtCarol);
             Controls.Add(txtTercero);
