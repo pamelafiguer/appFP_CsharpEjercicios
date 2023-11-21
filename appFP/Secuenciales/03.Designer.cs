@@ -28,158 +28,180 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
+            lblKilometros = new Label();
+            lblPies = new Label();
+            lblMillas = new Label();
+            lblMetros = new Label();
+            lblYardas = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txtYardas = new TextBox();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
             textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox10 = new TextBox();
+            txtMetros = new TextBox();
+            txtKm = new TextBox();
+            txtPies = new TextBox();
+            txtMillas = new TextBox();
+            btnCalcular = new Button();
             SuspendLayout();
             // 
-            // label1
+            // lblKilometros
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(35, 33);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            lblKilometros.AutoSize = true;
+            lblKilometros.Location = new Point(35, 33);
+            lblKilometros.Name = "lblKilometros";
+            lblKilometros.Size = new Size(70, 15);
+            lblKilometros.TabIndex = 0;
+            lblKilometros.Text = "Kilometros :";
             // 
-            // label2
+            // lblPies
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(35, 93);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 0;
-            label2.Text = "label1";
+            lblPies.AutoSize = true;
+            lblPies.Location = new Point(35, 93);
+            lblPies.Name = "lblPies";
+            lblPies.Size = new Size(34, 15);
+            lblPies.TabIndex = 0;
+            lblPies.Text = "Pies :";
             // 
-            // label3
+            // lblMillas
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(35, 147);
-            label3.Name = "label3";
-            label3.Size = new Size(38, 15);
-            label3.TabIndex = 0;
-            label3.Text = "label1";
+            lblMillas.AutoSize = true;
+            lblMillas.Location = new Point(35, 147);
+            lblMillas.Name = "lblMillas";
+            lblMillas.Size = new Size(44, 15);
+            lblMillas.TabIndex = 0;
+            lblMillas.Text = "Millas :";
             // 
-            // label4
+            // lblMetros
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(35, 203);
-            label4.Name = "label4";
-            label4.Size = new Size(38, 15);
-            label4.TabIndex = 0;
-            label4.Text = "label1";
+            lblMetros.AutoSize = true;
+            lblMetros.Location = new Point(35, 203);
+            lblMetros.Name = "lblMetros";
+            lblMetros.Size = new Size(50, 15);
+            lblMetros.TabIndex = 0;
+            lblMetros.Text = "Metros :";
             // 
-            // label5
+            // lblYardas
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(35, 243);
-            label5.Name = "label5";
-            label5.Size = new Size(38, 15);
-            label5.TabIndex = 0;
-            label5.Text = "label1";
+            lblYardas.AutoSize = true;
+            lblYardas.Location = new Point(35, 243);
+            lblYardas.Name = "lblYardas";
+            lblYardas.Size = new Size(47, 15);
+            lblYardas.TabIndex = 0;
+            lblYardas.Text = "Yardas :";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(79, 31);
+            textBox1.Location = new Point(111, 33);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(82, 23);
             textBox1.TabIndex = 1;
+            textBox1.TextAlign = HorizontalAlignment.Right;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(91, 200);
+            textBox2.Location = new Point(97, 200);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(82, 23);
             textBox2.TabIndex = 1;
+            textBox2.TextAlign = HorizontalAlignment.Right;
             // 
-            // textBox3
+            // txtYardas
             // 
-            textBox3.Location = new Point(91, 240);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 1;
+            txtYardas.Location = new Point(97, 240);
+            txtYardas.Name = "txtYardas";
+            txtYardas.Size = new Size(82, 23);
+            txtYardas.TabIndex = 5;
+            txtYardas.TextAlign = HorizontalAlignment.Right;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(79, 93);
+            textBox4.Location = new Point(85, 93);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
+            textBox4.Size = new Size(82, 23);
             textBox4.TabIndex = 1;
+            textBox4.TextAlign = HorizontalAlignment.Right;
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(79, 31);
+            textBox5.Location = new Point(111, 33);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
+            textBox5.Size = new Size(82, 23);
             textBox5.TabIndex = 1;
+            textBox5.TextAlign = HorizontalAlignment.Right;
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(79, 93);
+            textBox6.Location = new Point(85, 93);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
+            textBox6.Size = new Size(82, 23);
             textBox6.TabIndex = 1;
+            textBox6.TextAlign = HorizontalAlignment.Right;
             // 
-            // textBox7
+            // txtMetros
             // 
-            textBox7.Location = new Point(91, 200);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(100, 23);
-            textBox7.TabIndex = 1;
+            txtMetros.Location = new Point(97, 200);
+            txtMetros.Name = "txtMetros";
+            txtMetros.Size = new Size(82, 23);
+            txtMetros.TabIndex = 4;
+            txtMetros.TextAlign = HorizontalAlignment.Right;
             // 
-            // textBox8
+            // txtKm
             // 
-            textBox8.Location = new Point(79, 31);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(100, 23);
-            textBox8.TabIndex = 1;
+            txtKm.Location = new Point(111, 33);
+            txtKm.Name = "txtKm";
+            txtKm.Size = new Size(82, 23);
+            txtKm.TabIndex = 1;
+            txtKm.TextAlign = HorizontalAlignment.Right;
             // 
-            // textBox9
+            // txtPies
             // 
-            textBox9.Location = new Point(79, 93);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(100, 23);
-            textBox9.TabIndex = 1;
+            txtPies.Location = new Point(85, 93);
+            txtPies.Name = "txtPies";
+            txtPies.Size = new Size(82, 23);
+            txtPies.TabIndex = 2;
+            txtPies.TextAlign = HorizontalAlignment.Right;
             // 
-            // textBox10
+            // txtMillas
             // 
-            textBox10.Location = new Point(79, 147);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(100, 23);
-            textBox10.TabIndex = 1;
+            txtMillas.Location = new Point(85, 147);
+            txtMillas.Name = "txtMillas";
+            txtMillas.Size = new Size(82, 23);
+            txtMillas.TabIndex = 3;
+            txtMillas.TextAlign = HorizontalAlignment.Right;
+            // 
+            // btnCalcular
+            // 
+            btnCalcular.Location = new Point(62, 298);
+            btnCalcular.Name = "btnCalcular";
+            btnCalcular.Size = new Size(105, 26);
+            btnCalcular.TabIndex = 6;
+            btnCalcular.Text = "C&alcular";
+            btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
             // _03
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(234, 311);
-            Controls.Add(textBox3);
-            Controls.Add(textBox9);
+            ClientSize = new Size(255, 355);
+            Controls.Add(btnCalcular);
+            Controls.Add(txtYardas);
+            Controls.Add(txtPies);
             Controls.Add(textBox6);
-            Controls.Add(textBox8);
+            Controls.Add(txtKm);
             Controls.Add(textBox4);
-            Controls.Add(textBox10);
-            Controls.Add(textBox7);
+            Controls.Add(txtMillas);
+            Controls.Add(txtMetros);
             Controls.Add(textBox5);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(lblYardas);
+            Controls.Add(lblMetros);
+            Controls.Add(lblMillas);
+            Controls.Add(lblPies);
+            Controls.Add(lblKilometros);
             Name = "_03";
             Text = "_03";
             ResumeLayout(false);
@@ -188,20 +210,21 @@
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
+        private Label lblKilometros;
+        private Label lblPies;
+        private Label lblMillas;
+        private Label lblMetros;
+        private Label lblYardas;
         private TextBox textBox1;
         private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtYardas;
         private TextBox textBox4;
         private TextBox textBox5;
         private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
+        private TextBox txtMetros;
+        private TextBox txtKm;
+        private TextBox txtPies;
+        private TextBox txtMillas;
+        private Button btnCalcular;
     }
 }

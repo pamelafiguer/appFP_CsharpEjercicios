@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             lblE1 = new Label();
             lblE2 = new Label();
             lblE3 = new Label();
@@ -175,19 +174,7 @@
         private TextBox txtMayor;
         private TextBox txtMenor;
         private Button btnCalcular;
-=======
-=======
->>>>>>> b02bee22f57911d146fba65b5eff592b50eb339a
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "_06";
-        }
 
-        #endregion
-<<<<<<< HEAD
->>>>>>> b02bee22f57911d146fba65b5eff592b50eb339a
-=======
->>>>>>> b02bee22f57911d146fba65b5eff592b50eb339a
+
     }
 }

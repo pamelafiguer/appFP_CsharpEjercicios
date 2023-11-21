@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace appFP.Condicionales
+﻿namespace appFP.Condicionales
 {
     public partial class _06 : Form
     {
@@ -16,8 +6,7 @@ namespace appFP.Condicionales
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
@@ -39,9 +28,6 @@ namespace appFP.Condicionales
             txtMenor.Text = Menor.ToString("##");
 
         }
-=======
->>>>>>> b02bee22f57911d146fba65b5eff592b50eb339a
-=======
->>>>>>> b02bee22f57911d146fba65b5eff592b50eb339a
+
     }
 }
