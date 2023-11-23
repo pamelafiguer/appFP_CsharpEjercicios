@@ -30,8 +30,8 @@ namespace appFP.Secuenciales
             double Metros = (Primero + Segundo + Tercero) / 100;
             double Yardas = (Metros * 3.2808) / 3;
 
-            txtMetros.Text = Metros.ToString("##.00");
-            txtYardas.Text = Yardas.ToString("##.00");
+            txtMetros.Text = Metros.ToString("##.00") + " m";
+            txtYardas.Text = Yardas.ToString("##.00") + " yd";
 
 
 

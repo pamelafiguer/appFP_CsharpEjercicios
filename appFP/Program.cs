@@ -12,8 +12,11 @@ namespace appFP
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new Secuenciales._03());
+            Application.Run(new repetitivos._20());
+            
 
         }
+        
     }
+
 }
